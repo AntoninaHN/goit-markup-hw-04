@@ -148,9 +148,11 @@ a {
 }
 
 .contact-list-item {
-  margin-right: 30px;
   padding-top: 32px;
   padding-bottom: 32px;
+}
+.contact-list-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .contact-link:hover,
@@ -466,6 +468,7 @@ footer {
   padding: 6px 22px;
   margin-right: 8px;
 }
+
 .modal-button {
   font-family: Roboto;
   font-style: normal;
